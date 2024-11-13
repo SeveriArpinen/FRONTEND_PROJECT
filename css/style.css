@@ -5,8 +5,8 @@
 }
 
 :root {
-  --primary-color: #4891ff;
-  --light-color: #f4f4f6;
+  --primary-color: #27ae60;
+  --light-color: #e2e2e2;
   --dark-color: #111;
 }
 
@@ -536,4 +536,33 @@ img {
   .text-xxl {
     font-size: 2rem;
   }
+}
+
+/* PAGE 2 */
+
+/* BODY */
+.page2_body {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.page2_body .disclaimer {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page2_body .btn {
+  margin-top: 30px;
 }
